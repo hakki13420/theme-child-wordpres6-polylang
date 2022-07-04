@@ -1,0 +1,120 @@
+/*
+ Theme Name:   dcw-theme
+ Theme URI:    https://dcwtlemcen.dz
+ Description:  wordpress theme of dcw tlemcen site
+ Author:       HAKKI Rabah
+ Author URI:   https: //github.com/hakki13420
+ Template:     bravada
+ Version:      0.1.0
+*/
+@import url("./template/temp/tab/style.css");
+@import url("./template/temp/footer/style.css");
+@import url("./media.css");
+
+.slider-section{
+    border-top: 10px solid rgb(238, 238, 238);
+    border-bottom: 10px solid rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 10px;
+    max-width: calc(1240px - 4em);
+    margin: 0 auto;
+    overflow: hidden;
+    height: 350px;
+    min-height: 350px;
+}
+.slider{
+    flex: 2;
+    overflow: hidden;
+    border:3px solid teal;    
+    height: 100%;
+    min-height: 100%;
+}
+.slider div {
+    height: 100%;
+    min-height: 100%;
+}
+.alertes{
+    flex: 1;
+    border: 3px solid teal;
+    height: 100%;
+    min-height: 100%;
+    padding: 10px;
+}
+.alertes >ul>li {
+    background: red;    
+    border: transparent;
+}
+.sensibilisation-marquee h5 {
+    color: #FFF;
+    background: #262;
+    padding: 8px;
+    margin-top: 4px;
+}
+.alertes>ul>li>a {
+    color: #FFF;
+}
+#branding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#langues ul{
+    display: flex; 
+    gap: 10px;
+}
+#langues ul li {
+    list-style-type: none;
+}
+.news{
+    height: 30px;
+    background: red;
+    color: #FFF;
+    max-width: calc(1240px - 4em);
+    margin: 0 auto;
+}
+
+/* update the height of post picture*/
+.bravada-responsive-featured .main .post-thumbnail-container {
+    max-height: 200px!important;
+    height: 200px!important;
+}
+article{
+    border-radius: 10px;
+    box-shadow: 3px 4px #EEE;
+    transition: .4s all ease;
+}
+article:hover {
+    background: red;
+}
+article.hentry .post-thumbnail-container>.responsive-featured-image {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    max-height: 100%;
+}
+
+/*aside*/
+aside section{
+    border: 2px solid #bbb; 
+    padding: 0!important;
+    border-radius: 10px;   
+}
+aside section .widget-title {
+    display: block;
+    background: #bbb;
+    border-radius: 10px 10px 0 0;
+    padding: 3px 10px;
+}
+.wp-widget-group__inner-blocks, aside section ul{
+    padding: 10px!important;
+}
+div#n2-ss-2 .nextend-arrow img{
+    top:50%;
+    transform: translateY(-50%);    
+}

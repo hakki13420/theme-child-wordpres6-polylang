@@ -1,0 +1,139 @@
+/*footer link*/
+
+section{
+    padding: 10px;
+    color: #FFF;
+    width: 100%;
+}
+.portails h5 {
+    text-align: center;
+    font-weight: 700;
+}
+.portails ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+/*footer link*/
+/*footer copyright*/
+.copyright{    
+    display: flex;        
+    justify-content: center;
+    position: relative;
+}
+
+.designer{
+    position: absolute;
+    right: 0;
+}
+
+/*footer copyright*/
+
+/*footer about*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.col{
+    width: 25%;      
+    padding: 0px 5px;
+ 
+}
+
+.col h5{
+    font-size: 1.7rem;
+}
+.col > hr{
+    border: 3px solid #FFF;
+    margin-bottom:20px ;
+}
+.col .footer-description h5{
+    font-size: .9rem;
+}
+.col .footer-contact span{
+    font-size: .8rem;
+}
+.col .form-element input{
+    margin-top: 20px;
+    padding: 5px;        
+}
+.col .form-element span {   
+    border: 1px solid white;
+    padding: 4px;
+}
+.social-media-icons{    
+    font-size: 2rem;
+}
+.social-media-icons a {
+    color: #FFF;
+    transition: .4s all ease;
+}
+.social-media-icons a:hover {
+    color:#fcb900;
+}
+.instagram-photos{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;    
+    margin-bottom: 4px;
+}
+.instagram-photos img{
+    width: 75px;
+    height: 50px;
+}
+/*footer about*/
+/*footer services*/
+section.services{
+    background-image: url('../../../asset/images/green-blue3.png');    
+    background-color:green;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed!important;            
+    height: 500px;            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-row{    
+    height: 200px;    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.item{
+    border-radius: 10px;    
+    flex: 1;
+    padding: 20px;
+    background: #000;
+    opacity: .4;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .4s all ease;
+    cursor: pointer;
+    max-height: 150px;
+}
+.item p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: bold;    
+}
+.item p:nth-child(2) {
+    font-size: 1.9rem;
+}
+.item p:nth-child(3) {
+    font-size: 1.2rem;
+}
+.item:hover{
+    transform: scale(1.03);
+    opacity: .6;
+    border: 2px solid #AAA;
+}
